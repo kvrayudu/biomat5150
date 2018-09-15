@@ -1,0 +1,16 @@
+$(document).ready(function(){
+
+
+	
+	
+
+	$("#add_material_btn").click(function(event){
+		event.preventDefault();
+		var name = $("#material_autocomplete").attr("value");
+		$("#mat_names").html($("#mat_names").html() +  name + ", " );
+		$("#names").attr("value", $("#names").attr("value") +name+";");
+	});
+
+
+});
+

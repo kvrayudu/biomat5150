@@ -1,0 +1,27 @@
+.tab {
+
+	position: relative;
+	height: 10px;
+	padding:15px;
+	border:2px solid;
+	border-radius:25px;
+	text-decoration: none;
+	text-align:center;
+	margin: 20px;
+	box-shadow: black;
+
+}
+
+.nav_link{
+	text-align:center;
+	width: 100px;
+	text-decoration: none;
+}
+
+
+
+.selected {
+	background-color: rgba(0, 255, 255, .5);
+
+
+}

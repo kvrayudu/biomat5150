@@ -1,0 +1,418 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0035)http://localhost/5150/php/index.php -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>CException</title>
+
+<style type="text/css">
+/*<![CDATA[*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+
+body {
+	font: normal 9pt "Verdana";
+	color: #000;
+	background: #fff;
+}
+
+h1 {
+	font: normal 18pt "Verdana";
+	color: #f00;
+	margin-bottom: .5em;
+}
+
+h2 {
+	font: normal 14pt "Verdana";
+	color: #800000;
+	margin-bottom: .5em;
+}
+
+h3 {
+	font: bold 11pt "Verdana";
+}
+
+pre {
+	font: normal 11pt Menlo, Consolas, "Lucida Console", Monospace;
+}
+
+pre span.error {
+	display: block;
+	background: #fce3e3;
+}
+
+pre span.ln {
+	color: #999;
+	padding-right: 0.5em;
+	border-right: 1px solid #ccc;
+}
+
+pre span.error-ln {
+	font-weight: bold;
+}
+
+.container {
+	margin: 1em 4em;
+}
+
+.version {
+	color: gray;
+	font-size: 8pt;
+	border-top: 1px solid #aaa;
+	padding-top: 1em;
+	margin-bottom: 1em;
+}
+
+.message {
+	color: #000;
+	padding: 1em;
+	font-size: 11pt;
+	background: #f3f3f3;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom: 1em;
+	line-height: 160%;
+}
+
+.source {
+	margin-bottom: 1em;
+}
+
+.code pre {
+	background-color: #ffe;
+	margin: 0.5em 0;
+	padding: 0.5em;
+	line-height: 125%;
+	border: 1px solid #eee;
+}
+
+.source .file {
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+
+.traces {
+	margin: 2em 0;
+}
+
+.trace {
+	margin: 0.5em 0;
+	padding: 0.5em;
+}
+
+.trace.app {
+	border: 1px dashed #c00;
+}
+
+.trace .number {
+	text-align: right;
+	width: 2em;
+	padding: 0.5em;
+}
+
+.trace .content {
+	padding: 0.5em;
+}
+
+.trace .plus,
+.trace .minus {
+	display:inline;
+	vertical-align:middle;
+	text-align:center;
+	border:1px solid #000;
+	color:#000;
+	font-size:10px;
+	line-height:10px;
+	margin:0;
+	padding:0 1px;
+	width:10px;
+	height:10px;
+}
+
+.trace.collapsed .minus,
+.trace.expanded .plus,
+.trace.collapsed pre {
+	display: none;
+}
+
+.trace-file {
+	cursor: pointer;
+	padding: 0.2em;
+}
+
+.trace-file:hover {
+	background: #f0ffff;
+}
+/*]]>*/
+</style>
+</head>
+
+<body>
+<div class="container">
+	<h1>CException</h1>
+
+	<p class="message">
+		Application runtime path "/opt/lampp/htdocs/5150/php/protected/runtime" is not valid. Please make sure it is a directory writable by the Web server process.	</p>
+
+	<div class="source">
+		<p class="file">/opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(293)</p>
+		<div class="code"><pre><span class="ln">281</span>             return $this-&gt;_runtimePath;
+<span class="ln">282</span>         }
+<span class="ln">283</span>     }
+<span class="ln">284</span> 
+<span class="ln">285</span>     /**
+<span class="ln">286</span>      * Sets the directory that stores runtime files.
+<span class="ln">287</span>      * @param string $path the directory that stores runtime files.
+<span class="ln">288</span>      * @throws CException if the directory does not exist or is not writable
+<span class="ln">289</span>      */
+<span class="ln">290</span>     public function setRuntimePath($path)
+<span class="ln">291</span>     {
+<span class="ln">292</span>         if(($runtimePath=realpath($path))===false || !is_dir($runtimePath) || !is_writable($runtimePath))
+<span class="error"><span class="ln error-ln">293</span>             throw new CException(Yii::t('yii','Application runtime path "{path}" is not valid. Please make sure it is a directory writable by the Web server process.',
+</span><span class="ln">294</span>                 array('{path}'=&gt;$path)));
+<span class="ln">295</span>         $this-&gt;_runtimePath=$runtimePath;
+<span class="ln">296</span>     }
+<span class="ln">297</span> 
+<span class="ln">298</span>     /**
+<span class="ln">299</span>      * Returns the root directory that holds all third-party extensions.
+<span class="ln">300</span>      * @return string the directory that contains all extensions. Defaults to the 'extensions' directory under 'protected'.
+<span class="ln">301</span>      */
+<span class="ln">302</span>     public function getExtensionPath()
+<span class="ln">303</span>     {
+<span class="ln">304</span>         return Yii::getPathOfAlias('ext');
+<span class="ln">305</span>     }
+</pre></div>	</div>
+
+	<div class="traces">
+		<h2>Stack Trace</h2>
+				<table style="width:100%;">
+						<tbody><tr class="trace core collapsed">
+			<td class="number">
+				#0			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(280): <strong>CApplication</strong>-&gt;<strong>setRuntimePath</strong>("/opt/lampp/htdocs/5150/php/protected/runtime")				</div>
+
+				<div class="code"><pre><span class="ln">275</span>     {
+<span class="ln">276</span>         if($this-&gt;_runtimePath!==null)
+<span class="ln">277</span>             return $this-&gt;_runtimePath;
+<span class="ln">278</span>         else
+<span class="ln">279</span>         {
+<span class="error"><span class="ln error-ln">280</span>             $this-&gt;setRuntimePath($this-&gt;getBasePath().DIRECTORY_SEPARATOR.'runtime');
+</span><span class="ln">281</span>             return $this-&gt;_runtimePath;
+<span class="ln">282</span>         }
+<span class="ln">283</span>     }
+<span class="ln">284</span> 
+<span class="ln">285</span>     /**
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#1			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/opt/lampp/htdocs/5150/libs/yii/framework/logging/CFileLogRoute.php(67): <strong>CApplication</strong>-&gt;<strong>getRuntimePath</strong>()				</div>
+
+				<div class="code"><pre><span class="ln">62</span>      */
+<span class="ln">63</span>     public function init()
+<span class="ln">64</span>     {
+<span class="ln">65</span>         parent::init();
+<span class="ln">66</span>         if($this-&gt;getLogPath()===null)
+<span class="error"><span class="ln error-ln">67</span>             $this-&gt;setLogPath(Yii::app()-&gt;getRuntimePath());
+</span><span class="ln">68</span>     }
+<span class="ln">69</span> 
+<span class="ln">70</span>     /**
+<span class="ln">71</span>      * @return string directory storing log files. Defaults to application runtime path.
+<span class="ln">72</span>      */
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#2			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/opt/lampp/htdocs/5150/libs/yii/framework/logging/CLogRouter.php(66): <strong>CFileLogRoute</strong>-&gt;<strong>init</strong>()				</div>
+
+				<div class="code"><pre><span class="ln">61</span>     {
+<span class="ln">62</span>         parent::init();
+<span class="ln">63</span>         foreach($this-&gt;_routes as $name=&gt;$route)
+<span class="ln">64</span>         {
+<span class="ln">65</span>             $route=Yii::createComponent($route);
+<span class="error"><span class="ln error-ln">66</span>             $route-&gt;init();
+</span><span class="ln">67</span>             $this-&gt;_routes[$name]=$route;
+<span class="ln">68</span>         }
+<span class="ln">69</span>         Yii::getLogger()-&gt;attachEventHandler('onFlush',array($this,'collectLogs'));
+<span class="ln">70</span>         Yii::app()-&gt;attachEventHandler('onEndRequest',array($this,'processLogs'));
+<span class="ln">71</span>     }
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#3			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): <strong>CLogRouter</strong>-&gt;<strong>init</strong>()				</div>
+
+				<div class="code"><pre><span class="ln">389</span>             if(!isset($config['enabled']) || $config['enabled'])
+<span class="ln">390</span>             {
+<span class="ln">391</span>                 Yii::trace("Loading \"$id\" application component",'system.CModule');
+<span class="ln">392</span>                 unset($config['enabled']);
+<span class="ln">393</span>                 $component=Yii::createComponent($config);
+<span class="error"><span class="ln error-ln">394</span>                 $component-&gt;init();
+</span><span class="ln">395</span>                 return $this-&gt;_components[$id]=$component;
+<span class="ln">396</span>             }
+<span class="ln">397</span>         }
+<span class="ln">398</span>     }
+<span class="ln">399</span> 
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#4			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(530): <strong>CModule</strong>-&gt;<strong>getComponent</strong>("log")				</div>
+
+				<div class="code"><pre><span class="ln">525</span>      * Loads static application components.
+<span class="ln">526</span>      */
+<span class="ln">527</span>     protected function preloadComponents()
+<span class="ln">528</span>     {
+<span class="ln">529</span>         foreach($this-&gt;preload as $id)
+<span class="error"><span class="ln error-ln">530</span>             $this-&gt;getComponent($id);
+</span><span class="ln">531</span>     }
+<span class="ln">532</span> 
+<span class="ln">533</span>     /**
+<span class="ln">534</span>      * Preinitializes the module.
+<span class="ln">535</span>      * This method is called at the beginning of the module constructor.
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#5			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(167): <strong>CModule</strong>-&gt;<strong>preloadComponents</strong>()				</div>
+
+				<div class="code"><pre><span class="ln">162</span>         $this-&gt;initSystemHandlers();
+<span class="ln">163</span>         $this-&gt;registerCoreComponents();
+<span class="ln">164</span> 
+<span class="ln">165</span>         $this-&gt;configure($config);
+<span class="ln">166</span>         $this-&gt;attachBehaviors($this-&gt;behaviors);
+<span class="error"><span class="ln error-ln">167</span>         $this-&gt;preloadComponents();
+</span><span class="ln">168</span> 
+<span class="ln">169</span>         $this-&gt;init();
+<span class="ln">170</span>     }
+<span class="ln">171</span> 
+<span class="ln">172</span> 
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#6			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/opt/lampp/htdocs/5150/libs/yii/framework/YiiBase.php(125): <strong>CApplication</strong>-&gt;<strong>__construct</strong>("/opt/lampp/htdocs/5150/php/protected/config/main.php")				</div>
+
+				<div class="code"><pre><span class="ln">120</span>      * to the constructor of the application class.
+<span class="ln">121</span>      * @return mixed the application instance
+<span class="ln">122</span>      */
+<span class="ln">123</span>     public static function createApplication($class,$config=null)
+<span class="ln">124</span>     {
+<span class="error"><span class="ln error-ln">125</span>         return new $class($config);
+</span><span class="ln">126</span>     }
+<span class="ln">127</span> 
+<span class="ln">128</span>     /**
+<span class="ln">129</span>      * Returns the application singleton or null if the singleton has not been created yet.
+<span class="ln">130</span>      * @return CApplication the application singleton, null if the singleton has not been created yet.
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#7			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/opt/lampp/htdocs/5150/libs/yii/framework/YiiBase.php(98): <strong>YiiBase</strong>::<strong>createApplication</strong>("CWebApplication", "/opt/lampp/htdocs/5150/php/protected/config/main.php")				</div>
+
+				<div class="code"><pre><span class="ln">093</span>      * If not, the directory will be defaulted to 'protected'.
+<span class="ln">094</span>      * @return CWebApplication
+<span class="ln">095</span>      */
+<span class="ln">096</span>     public static function createWebApplication($config=null)
+<span class="ln">097</span>     {
+<span class="error"><span class="ln error-ln">098</span>         return self::createApplication('CWebApplication',$config);
+</span><span class="ln">099</span>     }
+<span class="ln">100</span> 
+<span class="ln">101</span>     /**
+<span class="ln">102</span>      * Creates a console application instance.
+<span class="ln">103</span>      * @param mixed $config application configuration.
+</pre></div>			</td>
+		</tr>
+						<tr class="trace app expanded">
+			<td class="number">
+				#8			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/opt/lampp/htdocs/5150/php/index.php(13): <strong>YiiBase</strong>::<strong>createWebApplication</strong>("/opt/lampp/htdocs/5150/php/protected/config/main.php")				</div>
+
+				<div class="code"><pre><span class="ln">08</span> defined('YII_DEBUG') or define('YII_DEBUG',true);
+<span class="ln">09</span> // specify how many levels of call stack should be shown in each log message
+<span class="ln">10</span> defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
+<span class="ln">11</span> 
+<span class="ln">12</span> require_once($yii);
+<span class="error"><span class="ln error-ln">13</span> Yii::createWebApplication($config)-&gt;run();
+</span></pre></div>			</td>
+		</tr>
+				</tbody></table>
+	</div>
+
+	<div class="version">
+		2015-06-02 16:06:47 Apache/2.4.12 (Unix) OpenSSL/1.0.1m PHP/5.5.24 mod_perl/2.0.8-dev Perl/v5.16.3 <a href="http://www.yiiframework.com/">Yii Framework</a>/1.1.16	</div>
+</div>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+var traceReg = new RegExp("(^|\\s)trace-file(\\s|$)");
+var collapsedReg = new RegExp("(^|\\s)collapsed(\\s|$)");
+
+var e = document.getElementsByTagName("div");
+for(var j=0,len=e.length;j<len;j++){
+	if(traceReg.test(e[j].className)){
+		e[j].onclick = function(){
+			var trace = this.parentNode.parentNode;
+			if(collapsedReg.test(trace.className))
+				trace.className = trace.className.replace("collapsed", "expanded");
+			else
+				trace.className = trace.className.replace("expanded", "collapsed");
+		}
+	}
+}
+/*]]>*/
+</script>
+
+
+
+</body></html>

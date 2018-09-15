@@ -1,0 +1,1790 @@
+2015/06/24 18:27:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 15:23:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 15:25:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 15:25:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 15:31:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 15:51:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 15:53:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'admind5cGH9i'@'localhost' (using password: YES)' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 15:53:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'admind5cGH9i'@'localhost' (using password: YES)' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 16:03:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 16:06:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 16:06:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 16:07:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 16:08:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection timed out' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 16:09:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 16:15:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'admind5cGH9i'@'localhost' (using password: YES)' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 16:17:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 17:17:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 17:18:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 17:18:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 17:19:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 17:20:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 17:20:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/25 17:21:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database '5150'' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/26 01:58:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'admind5cGH9i'@'localhost' (using password: YES)' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/26 02:12:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'admind5cGH9i'@'localhost' (using password: YES)' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/26 21:59:01 [error] [php] Undefined variable: formulas_vars (/opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php:104)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/getPossibleYVariables?name=Thermal&material_id=7
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (104)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/06/26 21:59:02 [error] [php] Undefined variable: formulas_vars (/opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php:104)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/getPossibleYVariables?name=Thermal+&material_id=7
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (104)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/06/26 21:59:05 [error] [php] Undefined variable: formulas_vars (/opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php:104)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/getPossibleYVariables?name=Thermal+Conductivity&material_id=7
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (104)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/06/26 21:59:06 [error] [php] Undefined variable: formulas_vars (/opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php:104)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/getPossibleYVariables?name=Thermal+Conductivit&material_id=7
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (104)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/06/26 21:59:10 [error] [php] Undefined variable: formulas_vars (/opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php:104)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/getPossibleYVariables?name=w&material_id=7
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (104)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/06/26 21:59:12 [error] [php] Undefined variable: formulas_vars (/opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php:104)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/getPossibleYVariables?name=Water+Content&material_id=7
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (104)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/06/26 22:01:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php:764
+Stack trace:
+#0 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(376): DataViewController->loadVariable('Pick')
+#1 [internal function]: DataViewController->actionGetPoints('11282', '7', 'Pick', '{"valid":0,"ran...')
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(DataViewController), Array)
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(DataViewController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('getPoints')
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('dataView/getPoi...')
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/5150/php/index.php/dataView/getPoints?material_id=11282&x_var_id=Pick&y_var_id=7&data=%7B%22valid%22%3A0%2C%22range_low%22%3A%220%22%2C%22range_high%22%3A%220%22%7D
+HTTP_REFERER=http://localhost/5150/php/index.php/dataView/plot?Material_id=11282&variable=Thermal+Conductivity+%2C+W%2Fm+K&dependent_variable=Pick+one&range_low=0&range_high=0&formula=Pick+one
+---
+2015/06/26 22:01:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php:764
+Stack trace:
+#0 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(376): DataViewController->loadVariable('Pick')
+#1 [internal function]: DataViewController->actionGetPoints('11282', '7', 'Pick', '{"valid":0,"ran...')
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(DataViewController), Array)
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(DataViewController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('getPoints')
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('dataView/getPoi...')
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/5150/php/index.php/dataView/getPoints?material_id=11282&x_var_id=Pick&y_var_id=7&data=%7B%22valid%22%3A0%2C%22range_low%22%3A%220%22%2C%22range_high%22%3A%220%22%7D
+HTTP_REFERER=http://localhost/5150/php/index.php/dataView/plot?Material_id=11282&variable=Thermal+Conductivity+%2C+W%2Fm+K&dependent_variable=Pick+one&range_low=0&range_high=0&formula=Pick+one
+---
+2015/06/27 03:21:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2006] MySQL server has gone away' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/29 14:10:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/29 14:10:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Connection refused' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/06/30 17:20:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2006] MySQL server has gone away' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/php/protected/models/Material.php(112): CModule->__get('db')
+#5 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(25): Material::materialAutoComplete('O')
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionMaterialAutocomplete()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('materialAutoCom...')
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage/materi...')
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/5150/php/index.php/homepage/materialAutoComplete?term=O
+HTTP_REFERER=http://localhost/5150/php/index.php/homepage
+---
+2015/06/30 17:20:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2006] MySQL server has gone away' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/php/protected/models/Material.php(112): CModule->__get('db')
+#5 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(25): Material::materialAutoComplete('Onions')
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionMaterialAutocomplete()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('materialAutoCom...')
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage/materi...')
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/5150/php/index.php/homepage/materialAutoComplete?term=Onions
+HTTP_REFERER=http://localhost/5150/php/index.php/homepage
+---
+2015/06/30 17:20:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2006] MySQL server has gone away' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/php/protected/models/Material.php(112): CModule->__get('db')
+#5 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(25): Material::materialAutoComplete('Onions,')
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionMaterialAutocomplete()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('materialAutoCom...')
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage/materi...')
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/5150/php/index.php/homepage/materialAutoComplete?term=Onions%2C
+HTTP_REFERER=http://localhost/5150/php/index.php/homepage
+---
+2015/06/30 17:20:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2006] MySQL server has gone away' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/php/protected/models/Material.php(112): CModule->__get('db')
+#5 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(25): Material::materialAutoComplete('Onions,raw')
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionMaterialAutocomplete()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('materialAutoCom...')
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage/materi...')
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/5150/php/index.php/homepage/materialAutoComplete?term=Onions%2Craw
+HTTP_REFERER=http://localhost/5150/php/index.php/homepage
+---
+2015/06/30 17:20:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2006] MySQL server has gone away' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage?material_autocomplete=Onions%2Craw&Material%5Bid%5D=&yt0=Search
+HTTP_REFERER=http://localhost/5150/php/index.php/homepage
+---
+2015/06/30 17:24:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php:764
+Stack trace:
+#0 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(376): DataViewController->loadVariable('Pick')
+#1 [internal function]: DataViewController->actionGetPoints('11282', '7', 'Pick', '{"valid":0,"ran...')
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(DataViewController), Array)
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(DataViewController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('getPoints')
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('dataView/getPoi...')
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/5150/php/index.php/dataView/getPoints?material_id=11282&x_var_id=Pick&y_var_id=7&data=%7B%22valid%22%3A0%2C%22range_low%22%3A%220%22%2C%22range_high%22%3A%220%22%7D
+HTTP_REFERER=http://localhost/5150/php/index.php/dataView/plot?Material_id=11282&variable=Thermal+Conductivity+%2C+W%2Fm+K&dependent_variable=Pick+one&range_low=0&range_high=0&formula=Pick+one
+---
+2015/07/01 13:26:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2006] MySQL server has gone away' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(2384): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Material))
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/HomepageController.php(7): CActiveRecord->__construct()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(49): HomepageController->actionIndex()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index.php/homepage
+---
+2015/07/01 13:28:42 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php:160)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/plot?Material_id=11282&variable=Thermal+Conductivity+%2C+W%2Fm+K&dependent_variable=Pick+one&variable=1&range_low=0&range_high=100&formula=Pick+one
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (160)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/01 15:58:29 [error] [php] Use of undefined constant php - assumed 'php' (/opt/lampp/htdocs/5150/php/protected/views/dataView/view.php:53)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(869): DataViewController->renderFile()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(782): DataViewController->renderPartial()
+#2 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(17): DataViewController->render()
+#3 unknown(0): DataViewController->actionView()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/11282
+in /opt/lampp/htdocs/5150/php/protected/views/dataView/view.php (53)
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (17)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/01 15:58:51 [error] [php] Use of undefined constant php - assumed 'php' (/opt/lampp/htdocs/5150/php/protected/views/dataView/view.php:53)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(869): DataViewController->renderFile()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(782): DataViewController->renderPartial()
+#2 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(17): DataViewController->render()
+#3 unknown(0): DataViewController->actionView()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/11282
+in /opt/lampp/htdocs/5150/php/protected/views/dataView/view.php (53)
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (17)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/01 15:59:15 [error] [php] Use of undefined constant php - assumed 'php' (/opt/lampp/htdocs/5150/php/protected/views/dataView/view.php:53)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(869): DataViewController->renderFile()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(782): DataViewController->renderPartial()
+#2 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(17): DataViewController->render()
+#3 unknown(0): DataViewController->actionView()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/11282
+in /opt/lampp/htdocs/5150/php/protected/views/dataView/view.php (53)
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (17)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/01 16:12:42 [error] [php] Use of undefined constant php - assumed 'php' (/opt/lampp/htdocs/5150/php/protected/views/dataView/view.php:53)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(869): DataViewController->renderFile()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(782): DataViewController->renderPartial()
+#2 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(17): DataViewController->render()
+#3 unknown(0): DataViewController->actionView()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/11282
+in /opt/lampp/htdocs/5150/php/protected/views/dataView/view.php (53)
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (17)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/02 01:54:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2006] MySQL server has gone away' in /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(1433): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/db/ar/CActiveRecord.php(1489): CActiveRecord->getTableAlias(true)
+#7 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(754): CActiveRecord->findByPk('11282')
+#8 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(16): DataViewController->loadMaterial('11282')
+#9 [internal function]: DataViewController->actionView('11282')
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(DataViewController), Array)
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(DataViewController), Object(ReflectionMethod), Array)
+#12 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#14 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#16 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('dataView/view')
+#17 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/5150/php/index.php/dataView/11282
+HTTP_REFERER=http://localhost/5150/php/index.php/homepage?material_autocomplete=ONIONS%2CRAW&Material%5Bid%5D=11282&yt0=Search
+---
+2015/07/09 16:02:22 [error] [php] Use of undefined constant php - assumed 'php' (/opt/lampp/htdocs/5150/php/protected/views/dataView/view.php:53)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(869): DataViewController->renderFile()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(782): DataViewController->renderPartial()
+#2 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(17): DataViewController->render()
+#3 unknown(0): DataViewController->actionView()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/1
+in /opt/lampp/htdocs/5150/php/protected/views/dataView/view.php (53)
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (17)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/09 16:03:58 [error] [php] Use of undefined constant php - assumed 'php' (/opt/lampp/htdocs/5150/php/protected/views/dataView/view.php:53)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(869): DataViewController->renderFile()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(782): DataViewController->renderPartial()
+#2 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(17): DataViewController->render()
+#3 unknown(0): DataViewController->actionView()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/1
+in /opt/lampp/htdocs/5150/php/protected/views/dataView/view.php (53)
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (17)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/09 16:04:11 [error] [php] Use of undefined constant php - assumed 'php' (/opt/lampp/htdocs/5150/php/protected/views/dataView/view.php:53)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(869): DataViewController->renderFile()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(782): DataViewController->renderPartial()
+#2 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(17): DataViewController->render()
+#3 unknown(0): DataViewController->actionView()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/1
+in /opt/lampp/htdocs/5150/php/protected/views/dataView/view.php (53)
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (17)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/09 16:06:21 [error] [php] Use of undefined constant php - assumed 'php' (/opt/lampp/htdocs/5150/php/protected/views/dataView/view.php:53)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(869): DataViewController->renderFile()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(782): DataViewController->renderPartial()
+#2 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(17): DataViewController->render()
+#3 unknown(0): DataViewController->actionView()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/1
+in /opt/lampp/htdocs/5150/php/protected/views/dataView/view.php (53)
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (17)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/09 16:16:38 [error] [php] Use of undefined constant php - assumed 'php' (/opt/lampp/htdocs/5150/php/protected/views/dataView/view.php:53)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(869): DataViewController->renderFile()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(782): DataViewController->renderPartial()
+#2 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(17): DataViewController->render()
+#3 unknown(0): DataViewController->actionView()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/1
+in /opt/lampp/htdocs/5150/php/protected/views/dataView/view.php (53)
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (17)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/09 16:17:00 [error] [php] Use of undefined constant php - assumed 'php' (/opt/lampp/htdocs/5150/php/protected/views/dataView/view.php:53)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(869): DataViewController->renderFile()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(782): DataViewController->renderPartial()
+#2 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(17): DataViewController->render()
+#3 unknown(0): DataViewController->actionView()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/1
+in /opt/lampp/htdocs/5150/php/protected/views/dataView/view.php (53)
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (17)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/09 16:33:00 [error] [php] Use of undefined constant php - assumed 'php' (/opt/lampp/htdocs/5150/php/protected/views/dataView/view.php:53)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(869): DataViewController->renderFile()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(782): DataViewController->renderPartial()
+#2 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(17): DataViewController->render()
+#3 unknown(0): DataViewController->actionView()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/1
+in /opt/lampp/htdocs/5150/php/protected/views/dataView/view.php (53)
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (17)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/09 16:35:58 [error] [php] Use of undefined constant php - assumed 'php' (/opt/lampp/htdocs/5150/php/protected/views/dataView/view.php:53)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(869): DataViewController->renderFile()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(782): DataViewController->renderPartial()
+#2 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(17): DataViewController->render()
+#3 unknown(0): DataViewController->actionView()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/1
+in /opt/lampp/htdocs/5150/php/protected/views/dataView/view.php (53)
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (17)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/09 16:40:48 [error] [php] Use of undefined constant php - assumed 'php' (/opt/lampp/htdocs/5150/php/protected/views/dataView/view.php:50)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(869): DataViewController->renderFile()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(782): DataViewController->renderPartial()
+#2 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(17): DataViewController->render()
+#3 unknown(0): DataViewController->actionView()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#10 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/1
+in /opt/lampp/htdocs/5150/php/protected/views/dataView/view.php (50)
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (17)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/09 16:50:40 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php:160)
+Stack trace:
+#0 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): DataViewController->runAction()
+#1 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): DataViewController->runActionWithFilters()
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): DataViewController->run()
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /opt/lampp/htdocs/5150/php/index.php(13): CWebApplication->run()
+REQUEST_URI=/5150/php/index.php/dataView/plot?Material_id=1&variable=+Thermal+Conductivity&dependent_variable=Pick+one&range_low=0&range_high=0&formula=Pick+one
+in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php (160)
+in /opt/lampp/htdocs/5150/php/index.php (13)
+2015/07/09 16:51:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php:764
+Stack trace:
+#0 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(376): DataViewController->loadVariable('Pick')
+#1 [internal function]: DataViewController->actionGetPoints('1', '7', 'Pick', '{"valid":0,"ran...')
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(DataViewController), Array)
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(DataViewController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('getPoints')
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('dataView/getPoi...')
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/5150/php/index.php/dataView/getPoints?material_id=1&x_var_id=Pick&y_var_id=7&data=%7B%22valid%22%3A0%2C%22range_low%22%3A%220%22%2C%22range_high%22%3A%220%22%7D
+HTTP_REFERER=http://localhost/5150/php/index.php/dataView/plot?Material_id=1&variable=Thermal+Conductivity+%2C+W%2Fm+K&dependent_variable=Pick+one&range_low=0&range_high=0&formula=Pick+one
+---
+2015/07/09 16:56:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php:764
+Stack trace:
+#0 /opt/lampp/htdocs/5150/php/protected/controllers/DataViewController.php(376): DataViewController->loadVariable('Pick')
+#1 [internal function]: DataViewController->actionGetPoints('1', '7', 'Pick', '{"valid":1,"ran...')
+#2 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(DataViewController), Array)
+#3 /opt/lampp/htdocs/5150/libs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(DataViewController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/5150/libs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(282): CController->run('getPoints')
+#8 /opt/lampp/htdocs/5150/libs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('dataView/getPoi...')
+#9 /opt/lampp/htdocs/5150/libs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/5150/php/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/5150/php/index.php/dataView/getPoints?material_id=1&x_var_id=Pick&y_var_id=7&data=%7B%22valid%22%3A1%2C%22range_low%22%3A%220%22%2C%22range_high%22%3A%22100%22%2C%22formula%22%3A%22Pick
+HTTP_REFERER=http://localhost/5150/php/index.php/dataView/plot?Material_id=1&variable=Thermal+Conductivity+%2C+W%2Fm+K&dependent_variable=Pick+one&range_low=0&range_high=100&view_existing=yes&view_predicted_line=yes&formula=Pick+one
+---
+2017/12/10 16:58:21 [error] [php] Cannot modify header information - headers already sent by (output started at C:\wamp64\www\5150\php\protected\config\main.php:65) (C:\wamp64\www\yii\framework\web\CHttpRequest.php:889)
+Stack trace:
+#0 C:\wamp64\www\5150\php\protected\controllers\SiteController.php(32): SiteController->redirect()
+#1 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp64\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\wamp64\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\wamp64\www\5150\php\index-test.php(15): CWebApplication->run()
+REQUEST_URI=/5150/php/index-test.php
+2017/12/10 16:58:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in C:\wamp64\www\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\wamp64\www\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\wamp64\www\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\wamp64\www\yii\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\wamp64\www\yii\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 C:\wamp64\www\yii\framework\db\ar\CActiveRecord.php(2389): CActiveRecord->getDbConnection()
+#6 C:\wamp64\www\yii\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Material))
+#7 C:\wamp64\www\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\wamp64\www\5150\php\protected\controllers\HomepageController.php(7): CActiveRecord->__construct()
+#9 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(49): HomepageController->actionIndex()
+#10 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('homepage')
+#15 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\wamp64\www\5150\php\index-test.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/5150/php/index-test.php/homepage
+HTTP_REFERER=http://localhost/5150/php/index-test.php
+---
+2017/12/10 16:59:58 [error] [php] Cannot modify header information - headers already sent by (output started at C:\wamp64\www\5150\php\protected\config\main.php:65) (C:\wamp64\www\yii\framework\web\CHttpRequest.php:889)
+Stack trace:
+#0 C:\wamp64\www\5150\php\protected\controllers\SiteController.php(32): SiteController->redirect()
+#1 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp64\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\wamp64\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\wamp64\www\5150\php\index.php(14): CWebApplication->run()
+REQUEST_URI=/5150/php/
+in C:\wamp64\www\5150\php\protected\controllers\SiteController.php (32)
+in C:\wamp64\www\5150\php\index.php (14)
+2017/12/10 17:22:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp64\www\5150\php\protected\controllers\DataViewController.php:790
+Stack trace:
+#0 C:\wamp64\www\5150\php\protected\controllers\DataViewController.php(402): DataViewController->loadVariable('Pick')
+#1 [internal function]: DataViewController->actionGetPoints('1', '7', 'Pick', '{"valid":1,"ran...')
+#2 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(DataViewController), Array)
+#3 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DataViewController), Object(ReflectionMethod), Array)
+#4 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('getPoints')
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dataView/getPoi...')
+#9 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\5150\php\index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/5150/php/index.php/dataView/getPoints?material_id=1&x_var_id=Pick&y_var_id=7&data=%7B%22valid%22%3A1%2C%22range_low%22%3A%220%22%2C%22range_high%22%3A%22100%22%2C%22formula%22%3A%22Pick
+HTTP_REFERER=http://localhost/5150/php/index.php/dataView/plot?Material_id=1&variable=Thermal+Conductivity+%2C+W%2Fm+K&dependent_variable=Pick+one&range_low=0&range_high=100&view_existing=yes&view_predicted_line=yes&formula=Pick+one
+---
+2017/12/10 17:23:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp64\www\5150\php\protected\controllers\DataViewController.php:790
+Stack trace:
+#0 C:\wamp64\www\5150\php\protected\controllers\DataViewController.php(402): DataViewController->loadVariable('Pick')
+#1 [internal function]: DataViewController->actionGetPoints('4', '7', 'Pick', '{"valid":1,"ran...')
+#2 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(DataViewController), Array)
+#3 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DataViewController), Object(ReflectionMethod), Array)
+#4 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('getPoints')
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dataView/getPoi...')
+#9 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\5150\php\index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/5150/php/index.php/dataView/getPoints?material_id=4&x_var_id=Pick&y_var_id=7&data=%7B%22valid%22%3A1%2C%22range_low%22%3A%220%22%2C%22range_high%22%3A%22100%22%2C%22formula%22%3A%22Pick
+HTTP_REFERER=http://localhost/5150/php/index.php/dataView/plot?Material_id=4&variable=Thermal+Conductivity+%2C+W%2Fm+K&dependent_variable=Pick+one&range_low=0&range_high=100&view_existing=yes&view_predicted_line=yes&formula=Pick+one
+---
+2017/12/10 17:28:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp64\www\5150\php\protected\controllers\DataViewController.php:790
+Stack trace:
+#0 C:\wamp64\www\5150\php\protected\controllers\DataViewController.php(402): DataViewController->loadVariable('Pick')
+#1 [internal function]: DataViewController->actionGetPoints('5', '7', 'Pick', '{"valid":1,"ran...')
+#2 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(DataViewController), Array)
+#3 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DataViewController), Object(ReflectionMethod), Array)
+#4 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('getPoints')
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dataView/getPoi...')
+#9 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\5150\php\index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/5150/php/index.php/dataView/getPoints?material_id=5&x_var_id=Pick&y_var_id=7&data=%7B%22valid%22%3A1%2C%22range_low%22%3A%220%22%2C%22range_high%22%3A%22100%22%2C%22formula%22%3A%22Pick
+HTTP_REFERER=http://localhost/5150/php/index.php/dataView/plot?Material_id=5&variable=Thermal+Conductivity+%2C+W%2Fm+K&dependent_variable=Pick+one&range_low=0&range_high=100&view_existing=yes&view_predicted_line=yes&formula=Pick+one
+---
+2017/12/10 17:28:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp64\www\5150\php\protected\controllers\DataViewController.php:790
+Stack trace:
+#0 C:\wamp64\www\5150\php\protected\controllers\DataViewController.php(402): DataViewController->loadVariable('Pick')
+#1 [internal function]: DataViewController->actionGetPoints('5', '7', 'Pick', '{"valid":1,"ran...')
+#2 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(DataViewController), Array)
+#3 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DataViewController), Object(ReflectionMethod), Array)
+#4 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('getPoints')
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dataView/getPoi...')
+#9 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\5150\php\index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/5150/php/index.php/dataView/getPoints?material_id=5&x_var_id=Pick&y_var_id=7&data=%7B%22valid%22%3A1%2C%22range_low%22%3A%220%22%2C%22range_high%22%3A%22100%22%2C%22formula%22%3A%22Pick
+HTTP_REFERER=http://localhost/5150/php/index.php/dataView/plot?Material_id=5&variable=Thermal+Conductivity+%2C+W%2Fm+K&dependent_variable=Pick+one&range_low=0&range_high=100&view_existing=yes&view_predicted_line=yes&formula=Pick+one
+---
+2018/09/12 11:12:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (605)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:12:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(605): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionPropertyAutocomplete('te')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('propertyAutocom...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/propertyA...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/propertyAutocomplete?name=te
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:14:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (536)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:14:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(536): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionFactorAutocomplete('tem,')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('factorAutocompl...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/factorAut...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/factorAutocomplete?name=tem%2C
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:14:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (536)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:14:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(536): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionFactorAutocomplete('tem')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('factorAutocompl...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/factorAut...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/factorAutocomplete?name=tem
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:14:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (536)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:14:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(536): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionFactorAutocomplete('te')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('factorAutocompl...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/factorAut...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/factorAutocomplete?name=te
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:14:09 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (536)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:14:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(536): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionFactorAutocomplete('tem')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('factorAutocompl...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/factorAut...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/factorAutocomplete?name=tem
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:16:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (605)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:16:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(605): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionPropertyAutocomplete('c')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('propertyAutocom...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/propertyA...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/propertyAutocomplete?name=c
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:16:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (605)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:16:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(605): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionPropertyAutocomplete('te')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('propertyAutocom...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/propertyA...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/propertyAutocomplete?name=te
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:16:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (536)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:16:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(536): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionFactorAutocomplete('te')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('factorAutocompl...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/factorAut...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/factorAutocomplete?name=te
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:16:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (536)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:16:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(536): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionFactorAutocomplete('temp')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('factorAutocompl...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/factorAut...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/factorAutocomplete?name=temp
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:18:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (605)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:18:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(605): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionPropertyAutocomplete('x')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('propertyAutocom...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/propertyA...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/propertyAutocomplete?name=x
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:18:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (536)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:18:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(536): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionFactorAutocomplete('x')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('factorAutocompl...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/factorAut...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/factorAutocomplete?name=x
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:18:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (605)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:18:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(605): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionPropertyAutocomplete('ch')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('propertyAutocom...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/propertyA...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/propertyAutocomplete?name=ch
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:18:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (605)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:18:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(605): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionPropertyAutocomplete('chi')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('propertyAutocom...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/propertyA...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/propertyAutocomplete?name=chi
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:18:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (605)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:18:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(605): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionPropertyAutocomplete('tem')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('propertyAutocom...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/propertyA...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/propertyAutocomplete?name=tem
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:18:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (605)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:18:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(605): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionPropertyAutocomplete('temp')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('propertyAutocom...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/propertyA...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/propertyAutocomplete?name=temp
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:18:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (536)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:18:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(536): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionFactorAutocomplete('tem')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('factorAutocompl...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/factorAut...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/factorAutocomplete?name=tem
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:23:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (536)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:23:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(536): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionFactorAutocomplete('the')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('factorAutocompl...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/factorAut...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/factorAutocomplete?name=the
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:23:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (605)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:23:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 0' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(605): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionPropertyAutocomplete('ther')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('propertyAutocom...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/propertyA...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/propertyAutocomplete?name=ther
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
+2018/09/12 11:23:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1.
+in C:\wamp64\www\5150\php\protected\controllers\InputController.php (536)
+in C:\wamp64\www\5150\php\index.php (17)
+2018/09/12 11:23:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IsFactor' in 'where clause'. The SQL statement executed was: SELECT `Name`, `SIUnit`
+FROM `Variables`
+WHERE Name LIKE :name AND IsFactor = 1' in C:\wamp64\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp64\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 C:\wamp64\www\5150\php\protected\controllers\InputController.php(536): CDbCommand->queryAll(false, Array)
+#2 [internal function]: InputController->actionFactorAutocomplete('the')
+#3 C:\wamp64\www\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(InputController), Array)
+#4 C:\wamp64\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InputController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\yii\framework\web\CWebApplication.php(282): CController->run('factorAutocompl...')
+#9 C:\wamp64\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('input/factorAut...')
+#10 C:\wamp64\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\5150\php\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/5150/php/index.php/input/factorAutocomplete?name=the
+HTTP_REFERER=http://localhost/5150/php/index.php/input/4
+---
